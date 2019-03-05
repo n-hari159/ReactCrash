@@ -1,11 +1,13 @@
 import React from "react";
+import CSS from "../CSS/style.css";
 
 class Header extends React.Component{
     render(){
         return (
-            <div>
-            <h1> Hello </h1>
-            </div>
+            <header>
+            <div className="logo"> Logo </div>
+            <input type="text"></input>
+            </header>
         )
     }
 }
