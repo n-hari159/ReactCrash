@@ -5,12 +5,10 @@ import Header from "./Components/Header";
 //Components
 
 const App = () => {
-    return ( <
-        div >
-        <
-        Header / >
-        <
-        /div>
+    return ( 
+        <div>
+        <Header />
+        </div>
     )
 }
 ReactDOM.render( < App / > , document.querySelector("#root"));
