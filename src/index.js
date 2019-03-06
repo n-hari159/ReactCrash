@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./Components/Header";
+import Form from './Components/Form'
 
 //Components
 
 const App = () => {
     return ( 
         <div>
-        <Header />
-        <div />
+            <Header />
+            <Form />
         </div>
     )
 }
